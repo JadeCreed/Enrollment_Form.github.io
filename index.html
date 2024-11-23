@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg">
+    <h1>Student Enrollment Form</h1>
+    <div class="container">
+        <h3>Instructions:</h3>
+        <ol>
+            <li>Fill in the form fields.</li>
+            <li>Check your interests.</li>
+            <li>Click "Enroll Now" to submit.</li>
+        </ol>
+        <div class="form-container">
+            <form action="#" method="POST">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" min="18" max="100" required>
+
+            <label>Sex:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="sex" value="Male" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="sex" value="Female" required>
+
+            <label for="course">Course Options:</label>
+            <select id="course" name="course" required>
+            <option value="BSIT">BSIT</option>
+            <option value="BSSW">BSSW</option>
+            <option value="BSPA">BSPA</option>
+            <option value="BSCS">BSCS</option>
+            <option value="BSAIS">BSAIS</option>
+            <option value="BSA">BSA</option>
+            <option value="BSE">BSE</option>
+            <option value="ABELS">ABELS</option>
+            <option value="BTVTE">BTVTE</option>
+            <option value="DHRS">DHRS</option>
+            </select>
+
+            <fieldset>
+                <legend>Interests (Check all that apply):</legend>
+                <label for="webDevelopment">
+                <input type="checkbox" id="webDevelopment" name="interests" value="Web Development"> Web Development
+                </label><br>
+                <label for="Game development">
+                <input type="checkbox" id="Game development" name="interests" value="Game development">Game development 
+                </label><br>
+                <label for="networking">
+                <input type="checkbox" id="networking" name="interests" value="Networking"> Networking
+                </label><br>
+                <label for="graphicDesign">
+                <input type="checkbox" id="graphicDesign" name="interests" value="Graphic Design"> Graphic Design
+                </label>
+            </fieldset>
+
+                    <button type="submit" class="submit-btn">Enroll Now</button>
+            
+            </form>
+        </div>
+    </div>
+    <div class="table-daw">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Sex</th>
+                    <th>Course</th>
+                    <th>Interests</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sleeping Charles</td>
+                    <td>charles.doe@.com</td>
+                    <td>21</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Brian the prof</td>
+                    <td>brian@gmail.com</td>
+                    <td>22</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Game development</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Kyla the kups</td>
+                    <td>Kyla@gmail.com</td>
+                    <td>20</td>
+                    <td>Female</td>
+                    <td>BSIT</td>
+                    <td>Networking</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Lesli the late</td>
+                    <td>Lesli@gmail.com</td>
+                    <td>23</td>
+                    <td>Female</td>
+                    <td>BSIT</td>
+                    <td>Graphic Design</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>David</td>
+                    <td>david@gmail.com</td>
+                    <td>24</td>
+                    <td>Male</td>
+                    <td>BSSW</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Emma</td>
+                    <td>emma@gmail.com</td>
+                    <td>22</td>
+                    <td>Female</td>
+                    <td>BSA</td>
+                    <td>Graphic Design</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>James</td>
+                    <td>jameS@gmail.com</td>
+                    <td>25</td>
+                    <td>Male</td>
+                    <td>BSCS</td>
+                    <td>Networking</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
